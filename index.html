@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ngambis Bareng | Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+
+  <!-- =======================================================
+  * Template Name: Squadfree - v4.8.1
+  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Ngambis Squad</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Drive</a></li>
+          <li><a class="nav-link scrollto" href="#services">Tujuan</a></li>
+          <li><a class="nav-link scrollto" href="#team">Anggota</a></li>
+          <li class="dropdown"><a href="#"><span>Lainya...</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Selamat datang !</h1>
+      <h2>Kepada Seluruh Anggota Ngambis Squad</h2>
+      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="content">
+              <h3>Berikut adalah Link Untuk megakses Drive Ngambis Squad</h3>
+              <p>
+                Untuk Seluruh anggota sangat dianjurkan untuk menyimpan catatan dalam link, dengan akun dan pw yang telah disediakan pada deskripsi grup
+              </p>
+              <a href="#" class="about-btn">Menuju Drive!<i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Catatan</h4>
+                  <p>Mau tulisan jelek atau rapih taro aja wkwkwk</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Notes</h4>
+                  <p>Atau yang sering nyatet pakek notes juga sabi kali yeee wkwkwk ....</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-images"></i>
+                  <h4>Foto</h4>
+                  <p>Untuk yang suka foto foto materi atau catatan di kelas boleh juga nih di up biar bantu temen-temen ngambis lainnya...!!</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bx-shield"></i>
+                  <h4>Dilarang!</h4>
+                  <p>Dilarang pelit, demi kebaikan IPK bersama😊😊😊</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Tujuan</h2>
+          <p>Beberapa tujuan mulia grup ini :</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Kekeluargaan</a></h4>
+              <p class="description">Menambah relasi dan membuat suatu jaringan yang positif dan bisa jadi temen curhat juga xixixi...</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Berbagi Tugas dan jawaban</a></h4>
+              <p class="description">Sehingga mempersingkat waktu, ketika situasi hactic tugasss...</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Making moment</a></h4>
+              <p class="description">Apalagi kalau udah mabar bareng mas Ivan,,, Uhhhhh asik bangeeet!!!</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Cyber</a></h4>
+              <p class="description">Melindungi diri dari Cyrcle yang berbahaya 😂</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>ada yang kelewat?</h3>
+          <p>Gass kuy balik ke atas !!!</p>
+          <a class="cta-btn" href="#">Slebeeew!!!</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Anggota</h2>
+          <p>Anggota Ngambis SQ nih boosss senggol dooong 😎😎😎</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Agung</h4>
+                <span>Si kece </span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="150">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Abyan</h4>
+                <span>Si ganteng kalem</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Rizki</h4>
+                <span>Si paling cool</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Shidki</h4>
+                <span>Master cuek</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="150">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ivan</h4>
+                <span>Si paling barbar</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Zefa</h4>
+                <span>Lakikali</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Akbar</h4>
+                <span>Si paling ngambis</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="150">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Rizu</h4>
+                <span>Belum kenal✌️</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dhiya</h4>
+                <span>Belum pernah ketemu bang 👌</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Deklarasi | Ngambis Bareng</h2>
+          <p>Terciptanya grup ini diharapkan menjadi titik awal masa depan yang cerah</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Lokasi</h3>
+              <p>Universitas Diponegoro</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email :</h3>
+              <p>ngambisb21@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Admin grup, shidki</h3>
+              <p>0813-2583-5578</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.6362606010543!2d110.43870291465582!3d-7.05195717106239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c02787187c9%3A0x29bcf60b2c20aec!2sUniversitas%20Diponegoro%20(UNDIP)!5e0!3m2!1sid!2sid!4v1662120018012!5m2!1sid!2sid6" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
